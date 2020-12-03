@@ -15,9 +15,23 @@
             <h3>Click where you want to go:</h3>
         </div>
 
-        <div id=buttons>
-            <a href="http://192.168.50.92:5001/"><button>Zodiac App</button></a>
-            <a href="http://192.168.50.92:5002/carlist"><button>Car List</button></a>
+        <div id='zodiac'>
+            <form action="/zodiacapp" method="GET">
+                <input type="submit" name="zodiacbutton" value="Zodiac App">
+            </form>
+
+        </div>
+
+        <div id='carlist'>
+            <form action="/carlist" method="GET">
+                <input type="submit" name="carlist" value="Car List">
+            </form>
+        </div>
+
+        <div id='sensor'>
+            <form action="/sensor" method="GET">
+                <input type="submit" name="sensor" value="Sensor">
+            </form>
         </div>
 
     </div>
