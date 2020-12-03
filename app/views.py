@@ -17,7 +17,7 @@ def zodiacapp():
 @app.route('/carlist')
 def carlist():
     try:
-       return redirect('http://192.168.50.92:5002/carlist', code=302)
+       return redirect('http://192.168.50.92:5002', code=302)
     except Exception as e:
         return e
 
